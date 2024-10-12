@@ -1,3 +1,59 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+header {
   text-align: center;
+}
+
+li {
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+.about-content {
+  max-width: 700px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 5px 2fr;
+  gap: 0;
+}
+
+.vertical-line {
+  background-color: gray;
+  width: 1px;
+  height: 100%;
+}
+
+.academy-section_p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.academy-section {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.coding-workshop {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bolder;
 }
